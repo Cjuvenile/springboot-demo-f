@@ -1,0 +1,12 @@
+#tomcat¶Ë¿Ú
+server:
+  port: 8081
+spring:
+ datasource:
+  url: jdbc:mysql:///jpa_study?serverTimezone=UTC
+  username: root
+  password: root
+mybatis:
+ mapper-locations: classpath:mapper/*.xml
+ type-aliases-package: com.fd.springboot.entity
+
